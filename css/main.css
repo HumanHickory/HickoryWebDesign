@@ -8,6 +8,10 @@ html {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	}
 
+@-ms-viewport{
+  width: device-width;
+}
+
 /*__________________________________HEADING_______________________________________*/
 
 h1 {
