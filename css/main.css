@@ -12,7 +12,7 @@ html {
 
 h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 50px;
+	font-size: 30px;
 	color: RGB(69, 200, 207);
 	padding-left: 15px;
 	padding-right: 15px;
@@ -20,13 +20,13 @@ h1 {
 	}
 
 h2 {
-	font-size: 30px;
+	font-size: 20px;
 	color: Black;
 	padding-left: 50px;
 	padding-right: 15px;
 	}
 h3 {
-	font-size: 25px;
+	font-size: 16px;
 	color: RGB(43, 139, 161);
 	padding-left: 15px;
 	padding-right: 15px;
@@ -35,7 +35,7 @@ h3 {
 	}
 
 h4 {
-	font-size: 20px;
+	font-size: 16px;
 	color: Black;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -44,7 +44,7 @@ h4 {
 	}
 
 h5 {
-	font-size: 25px;
+	font-size: 16px;
 	color: Black;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -55,7 +55,7 @@ h5 {
 /*______________________________PARAGRAPH___________________________*/
 
 p {
-	font-size: 20px;
+	font-size: 16px;
 	text-align: justify;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -63,7 +63,7 @@ p {
 	}
 
 p.important {
-	font-size: 17px;
+	font-size: 16px;
 	text-align: justify;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -72,15 +72,6 @@ p.important {
 	color: #029783;
 	}
 
-p.heading {
-	font-size: 17px;
-	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
-	color: darkTurquoise;
-	font-weight: bold;
-
-	}
 
 p.small {
 	font-size: 12px;
@@ -91,15 +82,11 @@ p.notation {
 	text-align: center;
 	}
 
-p.infinity {
-	font-size: 20px;
-	color: RGB(69, 200, 207);
-	}
 	
 /*________________________________LISTS________________________________________*/
 
 ul.square {
-	font-size: 20px;
+	font-size: 16px;
 	text-align: justify;
 	padding-left: 75px;
 	padding-right: 15px;
