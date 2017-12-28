@@ -1,14 +1,109 @@
-/*___________________________________BODY_________________________________________*/
-body {
-	background-image: url("../img/ComputerImage.jpg");
-	background-size: cover;
-	}
+/*-------------------------Full Sheet---------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 html {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	}
 
-/*__________________________________HEADING_______________________________________*/
+body {
+	background-image: url("../img/ComputerImage.jpg");
+	background-size: cover;
+	}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*------------------Section Formatting-------------------------*/
+
+.section {
+	width: 100%;
+	height: auto;
+  	justify-content: center;
+  	align-items: center;
+	display: flex;
+	}
+
+.header {
+	background-color: white;
+	border: .3vw double RGB(69,200,207);
+	padding: 20px 10px 20px 10px;
+	}
+
+.content {
+	display: block;
+	background-color: white;
+	border: .3vw solid #ddd;
+	height: auto;
+	padding: 20px 10px 20px 10px;
+	}
+
+.Scontent {
+	display: block;
+	height: auto;
+	padding: 20px 10px 20px 10px;
+	}
+
+.feature-1 {
+	background-color: white;
+	border: .3vw solid RGB(69,200,207);
+	margin: .5vw .5vw .5vw .5vw;
+}
+
+.feature-2 {
+	background-color: white;
+	border: .3vw solid RGB(69,200,207);
+	margin: .5vw .5vw .5vw .5vw;
+}
+
+.feature-3 {
+	background-color: white;
+	border: .3vw solid RGB(69,200,207);
+	margin: .5vw .5vw .5vw .5vw;
+}
+
+.servs {
+	background-color: white;
+	border: .3vw solid RGB(69,200,207);
+	margin: .5vw .5vw .5vw .5vw;
+	padding: .5vw .5vw .5vw .5vw;
+	max-width: 80%;
+	display: block;
+}
+
+.logo {
+	width: 15vw;
+	height: 7.5vw;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	}
+
+.navMenu {
+	float: right;
+	height: 7vw;
+	margin-right: 3vw;
+	width: 10vw;
+	}
+
+.package {
+	display: block;
+	background-color: white;
+	border: 8px solid RGB(69, 200, 207);
+        box-sizing: border-box;
+	padding-top: .5vw;
+	}
+
+	
+/*------------------------Headers and Paragraphs----------------------------*/
+
+/*____________________________Headers_______________________________________*/
 
 h1 {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -16,7 +111,7 @@ h1 {
 	color: RGB(69, 200, 207);
 	padding-left: 15px;
 	padding-right: 15px;
-	text-align: center;
+	margin-top: 10px;
 	}
 
 h2 {
@@ -24,23 +119,22 @@ h2 {
 	color: Black;
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
+	margin-bottom: 1.5vw;
 	}
 h3 {
-	font-size: 25px;
+	font-size: 1.5vw;
 	color: RGB(43, 139, 161);
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: .5vw .5vw .5vw .5vw;
 	text-align: center;
 	text-decoration: underline;
 	}
 
 h4 {
-	font-size: 20px;
+	font-size: 1.2vw;
 	color: Black;
-	padding-left: 15px;
+	padding-left: 2vw;
 	padding-right: 15px;
 	text-align: left;
-	padding-left: 50px;
 	}
 
 h5 {
@@ -51,8 +145,7 @@ h5 {
 	text-align: center;
 	}
 
-	
-/*______________________________PARAGRAPH___________________________*/
+/*___________________________Paragraphs_____________________________________*/
 
 p {
 	font-size: 1vw;
@@ -65,37 +158,42 @@ p {
 p.important {
 	font-size: 1vw;
 	text-align: justify;
-	padding-left: 1.5vw;
-	padding-right: 1.5vw;
+	padding: .5vw 1.5vw .5vw 1.5vw;
 	font-weight: bold;
 	font-style: italic;
 	color: #029783;
 	}
 
 p.small {
-	font-size: .5px;
+	font-size: .7vw;
 	}
 
-p.notation {
+p.pricing {
 	font-size: 1vw;
 	text-align: center;
 	}
-	
-/*________________________________LISTS________________________________________*/
+
+/*------------------------------Lists--------------------------------------*/
+
+ul {
+	font-size: 1vw;
+	text-align: justify;
+	padding-left: 5%;
+	}
 
 ul.square {
-	font-size: 20px;
+	font-size: 1vw;
 	text-align: justify;
-	padding-left: 75px;
-	padding-right: 15px;
+	padding-left: 10%;
 	list-style-type: square;
 	}
 
 li {
 	margin: 10px;
+	font-size: 1vw;
 	}
 
-/*__________________________LINKS_______________________________________________*/
+/*------------------------------LINKS--------------------------------------*/
 
 a:link {
 	color: RGB(69, 200, 207);
@@ -107,12 +205,16 @@ a:hover{
 	color: teal;
 	}
 
-/*______________________________________IMAGES______________________________________*/
+/*--------------------------------IMAGES----------------------------------*/
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
 
-#mainLogo {
-	max-width: 43%;
-	float: left;
-	margin: 0px 5px 10px 5px;
+.mainLogo {
+	display: block;
+	max-width: 100%;
+	position: relative;
 	}
 
 #texas {
@@ -123,133 +225,78 @@ a:hover{
 	max-width: 40%;
 	}
 
-#portrait {
+.portrait {
 	float: left;
-	max-width: 100%;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	}
-.ChoicePic {
-	float: left;
-	float: center;
 	position: relative;
-	max-width: 100%;
+	max-width: 12%;
 	}
-	
-/*________________________________________COLUMNS______________________________________*/
 
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-	float: left;
-	padding: 15px;
+.SelectPic {
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	width: 25vw;
+	position: relative;
+	}
+
+
+/*_________________________________HR______________________________________*/
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
 }
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-	.col-0 {width: 4.16%}
-	.col-1 {width: 8.33%;}
-	.col-2 {width: 16.66%;}
-	.col-3 {width: 25%;}
-	.col-4 {width: 33.33%;}
-	.col-5 {width: 41.66%;}
-	.col-6 {width: 50%;}
-	.col-7 {width: 58.33%;}
-	.col-8 {width: 66.66%;}
-	.col-9 {width: 75%;}
-	.col-10 {width: 83.33%;}
-	.col-11 {width: 91.66%;}
-	.col-12 {width: 100%;}
-
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-	}
-/*________________________________________BOX FORMATS______________________________________*/
-* {
-    box-sizing: border-box;
-	}
+hr.style-one {
+	overflow: visible; /* For IE */
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+	clear: left;
+}
 
 
-.Heading {
-	background-color: white;
-	border: 5px double RGB(69,200,207);
-	}
-.Body {
-	background-color: white;
-	border: 5px solid #ddd;
-	}
+hr.style-one:after {
+    content:  "\00A7 ";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1em;
+    padding: 0 0.25em;
+    background: white;
+}
 
-.Blu {
-	background-color: white;
-	border: 5px solid RGB(69,200,207);
-	padding: 0px 0px 0px 0px;
-	}
+/*------------------------------Navigation----------------------------------*/
 
-.Pack {
-	background-color: white;
-	border: 8px solid RGB(69, 200, 207);
-	}
-
-/*____________________________________Top Navigation...Again____________________________________*/
 .navbar {
 	overflow: hidden;
 	background-color: white;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	height: 130px;
-	font-size: 20px;
-	font-weight: bold;
-	border: 3px solid dimGray;
+	height: 8vw;
+	border: .3vw solid dimGray;
 	}
 
-.navbar a {
-	float: left;
-	font-size: 20px;
-	color: black;
-	text-align: center;
-	padding: 23px 16px;
-	text-decoration: none;
-}
-
-.navbar input[type=text] {
-	float: right;
-	padding: 12px;
-	border: 1px solid black;
-	margin-top: 40px;
-	margin-right: 16px;
-	font-size: 20px;
-	}
 
 .dropdown {
 	float: right;
 	overflow: hidden;
-	margin-right: 20px;
+	vertical-align: middle;
 }
 
 .dropdown .dropbtn {
-	font-size: 20px;    
-	border: none;
-	outline: none;
-	color: black;
-	padding: 50px 16px 16px;
-	background-color: inherit;
 	font-family: Georgia, "Times New Roman", Times, serif;
+ 	font-size: 1.7vw; 
 	font-weight: bold;
+	border: none;
+	color: black;
+	background-color: inherit;
 	}
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -257,6 +304,8 @@ a:hover{
 	}
 
 .dropdown-content {
+	font-size: 1.3vw;
+	font-weight: bold;
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
@@ -284,65 +333,121 @@ a:hover{
 	display: block;
 	}
 
-/*____________________________________SIDE NAV______________________________________*/
+
+/*----------------------------Screen Sizing --------------------------------*/
 
 
-.ServNav{
-	width: 450px;
-	height: 350px;
-	float: right;
-	background-color: black;
-	padding-top: 16px;
-	text-align: center;
-	border: 4px solid white;
-	margin-left: 72%;
-	position: fixed;
-}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+.header {
+	height: 30px;
+	width: 70%;
+	margin-left:50px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+  }
 
-.ServNav a {
-    padding: 8px 8px 8px 20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-.ServNav a:hover {
-    color: RGB(69, 200, 207);
-    font-style: italic;
-}
+.feature-1, .feature-2, .feature-3 {
+	width: 30%;
+	margin: auto;
+	height: 10%;
+	margin-bottom: 3px;
+	margin-top: 3px;
+  }
+.content {
+	width: 95%;
+	margin: auto;
+	margin-top: .25vw;
+	margin-bottom: .25vw;
+	}
 
+.Scontent {
+	width: 95%;
+	margin: auto;
+	margin-top: .25vw;
+	margin-bottom: .25vw;
+	}
 
-/*_______________________________________HR________________________________________*/
-
-hr.style-eight {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-
-hr.style-one {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+.package {
+	margin: 1vw 1vw 1vw .5vw;
+	}
 }
 
 
-hr.style-one:after {
-    content:  "\00A7 ";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
+
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+.header {
+	height: 60px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: .5vw;
+	margin-top: .5vw;
+  }
+
+.feature-1, .feature-2, .feature-3 {
+	width:55%;
+	height: 20%;
+	margin: auto;
+	margin-bottom: .5vw;
+  	}
+
+.content {
+	width: 95%;
+	margin: auto;
+	margin-top: .25vw;
+	margin-bottom: .25vw;
+	}
+
+.Scontent {
+	width: 95%;
+	margin: auto;
+	}
+.package {
+	margin: 1vw 1vw 1vw .5vw;
+	}
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+.feature-1, .feature-2, .feature-3 {
+	width: 30%;
+	margin-left: 2.2vw;
+  	}
+
+.header {
+	height: 150px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: .5vw;
+	margin-top: 1vw;
+  	}
+
+.content {
+	width: 95%;
+	margin: auto;
+	margin-top: .25vw;
+	margin-bottom: .25vw;
+	}
+
+.Scontent {
+	width: 52%;
+	margin: 1vw 1vw 1vw 5vw;
+	}
+
+.package {
+	margin: 1vw 1vw 1vw 5vw;
+	}
+
+.servs {
+	margin-top: 1vw;
+	}
+
 }
 
 
