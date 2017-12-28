@@ -77,18 +77,11 @@ body {
 }
 
 .logo {
-	width: 15vw;
-	height: 7.5vw;
 	float: left;
-	margin-left: 10px;
-	margin-bottom: 5px;
 	}
 
 .navMenu {
 	float: right;
-	height: 7vw;
-	margin-right: 3vw;
-	width: 10vw;
 	}
 
 .package {
@@ -279,20 +272,17 @@ hr.style-one:after {
 .navbar {
 	overflow: hidden;
 	background-color: white;
-	height: 8vw;
-	border: .3vw solid dimGray;
 	}
 
 
 .dropdown {
 	float: right;
 	overflow: hidden;
-	vertical-align: middle;
+
 }
 
 .dropdown .dropbtn {
 	font-family: Georgia, "Times New Roman", Times, serif;
- 	font-size: 1.7vw; 
 	font-weight: bold;
 	border: none;
 	color: black;
@@ -304,15 +294,12 @@ hr.style-one:after {
 	}
 
 .dropdown-content {
-	font-size: 1.3vw;
 	font-weight: bold;
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	min-width: 160px;
-	
 	}
 
 .dropdown-content a {
@@ -396,6 +383,37 @@ p.important {
 	width: 90%;
 	}
 
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	height: 15vw;
+	border: .3vw solid dimGray;
+	}	
+
+
+.dropdown .dropbtn {
+ 	font-size: 5vw; 
+	}
+
+.navMenu {
+	height: 14vw;
+	margin-right: 3vw;
+	width: 25vw;
+
+	}
+
+.logo {
+	width: 35vw;
+	height: 14vw;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	}
+
+.dropdown-content {
+	font-size: 2.8vw;
+	}
+
 }
 
 
@@ -458,6 +476,37 @@ h1 {
 p.small {
 	font-size: 1.7vw;
 	}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	height: 15vw;
+	border: .3vw solid dimGray;
+	}	
+
+
+.dropdown .dropbtn {
+ 	font-size: 5vw; 
+	}
+
+.navMenu {
+	height: 14vw;
+	margin-right: 3vw;
+	width: 25vw;
+
+	}
+
+.logo {
+	width: 35vw;
+	height: 14vw;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	}
+
+.dropdown-content {
+	font-size: 2.8vw;
+	}
 }
 
 
@@ -501,6 +550,34 @@ p.small {
 .servs {
 	margin-top: 1vw;
 	width: 80%;
+	}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	height: 8vw;
+	border: .3vw solid dimGray;
+	}
+
+.dropdown .dropbtn {
+ 	font-size: 1.7vw; 
+	}
+
+.navMenu {
+	height: 7vw;
+	margin-right: 3vw;
+	width: 10vw;
+	}
+
+.logo {
+	width: 15vw;
+	height: 7.5vw;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	}
+
+.dropdown-content {
+	font-size: 1.3vw;
 	}
 
 }
