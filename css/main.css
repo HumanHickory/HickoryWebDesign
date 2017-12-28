@@ -341,14 +341,14 @@ hr.style-one:after {
 @media only screen and (max-width: 400px) {
 .header {
 	height: 30px;
-	width: 70%;
+	width: 95%;
 	margin-left:50px;
 	margin-bottom: 3px;
 	margin-top: 3px;
   }
 
 .feature-1, .feature-2, .feature-3 {
-	width: 30%;
+	width: 52%;
 	margin: auto;
 	height: 10%;
 	margin-bottom: 3px;
