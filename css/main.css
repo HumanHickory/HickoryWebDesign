@@ -44,9 +44,8 @@ body {
 .content {
 	display: block;
 	background-color: white;
-	border: .3vw solid #ddd;
 	height: auto;
-	padding: 20px 10px 20px 10px;
+	width: 100%;
 	}
 
 .Scontent {
@@ -89,15 +88,13 @@ body {
 
 .servs {
 	background-color: white;
-	border: .3vw solid RGB(69,200,207);
-	margin: .5vw .5vw .5vw .5vw;
-	padding: .5vw .5vw .5vw .5vw;
+	border-bottom: 2vw solid RGB(69,200,207);
+	padding: 2vw 7vw 2vw 7vw;
 	display: block;
-	font-size: 2.3vw;
-	margin: auto;
-	margin-top: 1vw;
-	border: .7vw solid RGB(69,200,207);
-	width: 90%;
+	font-size: 4vw;
+	margin-top: 5px;
+	width: 100%;
+	text-align: justify;
 }
 
 
@@ -151,12 +148,14 @@ body {
 .mobile-4 {
 	background-color: #ddd;
 	font-size: 4vw;
-	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px 10px black;
+	color: White;
 	height: auto;	
 	text-align: center;
 	padding: 15px 15px 15px 15px;
-	border-top: 6px solid white;
-	border-bottom: 6px solid white;
+	border-top: 6px solid RGB(69, 200, 207);
+	border-bottom: 6px double black;
 	display: block;
 	}
 
@@ -243,7 +242,7 @@ p {
 	}
 
 p.important {
-	font-size: 1vw;
+	font-size: 5vw;
 	text-align: justify;
 	padding: .5vw 1.5vw .5vw 1.5vw;
 	font-weight: bold;
@@ -423,6 +422,31 @@ hr.style-one:after {
 	display: block;
 	}
 
+.ServNav{
+	width: 450px;
+	height: 300px;
+	float: right;
+	background-color: black;
+	padding-top: 16px;
+	text-align: center;
+	border: 4px solid white;
+	margin-left: 72%;
+	position: fixed;
+}
+
+.ServNav a {
+    padding: 8px 8px 8px 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.ServNav a:hover {
+    color: RGB(69, 200, 207);
+    font-style: italic;
+}
 
 /*----------------------------Screen Sizing --------------------------------*/
 
@@ -438,7 +462,13 @@ hr.style-one:after {
 	display: none;
 	}
 
+p.important {
+	font-size: 3vw;
+	}
 
+.ServNav {
+	display: none;
+	}
 .navbar {
 	overflow: hidden;
 	background-color: white;
@@ -555,6 +585,10 @@ p.small {
 .dropdown-content {
 	font-size: 2.8vw;
 	}
+
+.ServNav {
+	display: none;
+	}
 }
 
 
@@ -600,9 +634,12 @@ p.small {
 	}
 
 .servs {
-	margin: 1vw .5vw .5vw .5vw;
+	margin: 1vw .5vw .5vw 5vw;
 	padding: .5vw .5vw .5vw .5vw;
-	width: 80%;
+	width: 60%;
+	font-size: 1.5vw;
+	border: .5vw solid #ddd;
+	border-bottom: 1vw solid RGB(69, 200, 207);
 	}
 
 
@@ -673,7 +710,9 @@ p.small {
 	width: 60%;
 	background-color: inherit;
 	border: none;
-	margin-top: 10px;
+	margin-left: 5vw;
+	text-align: center;
+	font-size: 3vw;
 	}
 
 
