@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+
+<head> 
+	<title> Hickory Web Design - Services </title>
+	<link rel="stylesheet" href="../css/main.css">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Office Training, Del Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Web Designs Training Services">
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+</head>
+<!--____________________________________________________________Navigation______________________________________________________________--!>
+
+<Body>
+
+
+<div class='navbar'>
+
+	<div class='section logo'>
+
+			<a href="../index.html"> <img src="../img/FullLogo.png" alt="Hickory Web Designs Logo" class="mainLogo" /> </a>
+
+	</div>
+
+
+
+  	<div class="dropdown">
+		<div class='section navMenu'>
+    		<button class="dropbtn"> &#9776; Menu
+		      <i class="fa fa-caret-down"></i>
+		</button>
+		</div>
+   			 <div class="dropdown-content">
+					<a href="../index.html"> Home</a>
+					<a href="../Packages.html"> Packages </a>
+					<a href="../Services.html"> Services </a>
+					<a href="../About.html"> About </a>
+					<a href="../Contact.html"> Contact Us </a>
+					<a href="../SvcInfo.html"> Q&A </a>
+    			</div>
+	
+  	</div> 
+
+</div>
+
+
+<!--________________________________________________________BODY________________________________________________________________--!>
+
+<div class='page'>
+<div class="content-area">	
+
+
+			<aside class="sidebar-area">
+
+				<div class="ServNav">
+					<a href="../Services.html"> Return to Services </a>
+					<a href="#top"> Back to the Top </a>
+					<div class="Servnav-dropdown">
+						<a href="#MS"> MS Office Training Seminars </a>
+						<div class="ServNav-dropdown-content">
+							<a href="#basics"> Office Basics </a> 
+							<a href="#int"> Office Intermediate </a> 
+							<a href="#adv"> Office Advanced </a> 
+						</div>
+					</div>
+					<a href="Opt"> Analytics or Advertising </a>
+					<a href="Build"> Web Design Basic Training </a>
+					<a href="Svc_All.html"> View All Services </a>
+
+				</div>
+
+			</aside>
+
+<div class="site-main">
+
+	<div class='section header'>
+
+		<h1 id="top"> Training Services </h1>
+	</div>
+
+	<div class='section mobile-2'>	
+		
+		Hickory Web Designs wants to make sure that you have everything you need to have a successful business. 
+		That's why we offer individualized training seminars on all of your favorite services. Although these 
+		classes are not designed to cover the full extent of MS Office, Analytics, SEO or Web Design, it will set you 
+		or an employee up to understand, foundationally, how websites or Office works and how to use the tools available 
+		to you to your advantage.  
+	</div>
+
+	
+	<div class='section mobile-4' id="MS">
+
+		Microsoft Office Training Seminars
+
+	</div>
+
+	<div class='section servs'>
+		Want to learn more about office? Take one of our Microsoft (MS) Office classes 
+		to help your business succeed! 
+
+		<br> <br>
+
+		<b> Available options: </b>
+
+		<br> <br>
+		<p class="important" id="basics"> Office Suite Basics &ndash; 1 hour &ndash; $ </p>
+
+			<ul>
+				<li> Excel, Word, Powerpoint, Access, and Outlook </li>
+				<li> Symbols and built-in functions </li>
+				<li> General work-place uses </li>
+				<li> MS Office verbiage </li>
+				<li> Up to 7 may attend </li>
+ 				<li> Provided at YOUR office (no travel required!) </li>
+			</ul>
+
+		<p class="important" id="int"> Office Suite Intermediate &ndash;  1 hour &ndash;  $
+			<ul>
+				<li> Covers: Excel, Word, Powerpoint, Access, and Outlook </li>
+				<li> Symbols and built-in functions </li>
+				<li> Advanced work-place usage </li>
+				<li> Hidden functionality </li>
+				<li> Up to 7 may attend </li> 
+				<li> Provided at YOUR office (no travel required!) </li>
+			</ul>
+		<p class="important" id="adv"> Office Suite Advanced &ndash;  1 hour &ndash;  $
+			<ul>
+				<li> Covers VBA programming basics </li>
+				<li> 1 may attend </li>
+				<li> MS Office Specialist Training </li>
+				<li> Choose any MS Office Program and learn the basics and advanced options for it! </li>
+			</ul>
+	</div>
+
+	<div class='section mobile-4' id="Opt">
+	
+		Analytics or Advertising Training
+
+	</div>
+
+	<div class='section servs'>
+
+		Partner with Hickory Web Designs to learn more about analytics programs or advertising applications. 
+		These may include Google Analytics, Piwik, Facebook Pixel or Google AdWords. Learn about free resource to further 
+		your knowledge afterward! One may attend.
+
+	</div>
+
+
+	<div class='section mobile-4' id="Build">
+	
+		Web Design Basic Training
+
+
+	</div>
+
+	<div class='section servs'>
+
+		Learn the fundamentals of HTML5 and CSS while learning how to use mobile first development. 
+		This is a basic one time training that may help with future maintenance.
+	</div> 
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+	<footer>
+		<strong> Contact Us </strong>
+			<br/> <br/>
+		<strong> Call Us: </strong> <a href="tel:+15623704395"> (562) 370-4395 </a>
+			<br/> <br/>
+		<strong> Email Us: </strong> <a href="mailto:HickoryWebDesigns@Gmail.com" data-rel="external"> HickoryWebDesigns@Gmail.com </a>
+			<br/> <br/>
+		<strong> Request More Info </strong> <a href="ContactUs.html"> Here  </a>
+		
+	</footer>
+</div>
+
+
+
+
+</body>
+</html>
+
