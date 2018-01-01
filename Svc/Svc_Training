@@ -59,15 +59,15 @@
 					<a href="../Services.html"> Return to Services </a>
 					<a href="#top"> Back to the Top </a>
 					<div class="Servnav-dropdown">
-						<a href="#MS"> MS Office Training Seminars </a>
+					 	<a href="#MS"> MS Office Training Seminars </a>
 						<div class="ServNav-dropdown-content">
 							<a href="#basics"> Office Basics </a> 
 							<a href="#int"> Office Intermediate </a> 
 							<a href="#adv"> Office Advanced </a> 
 						</div>
 					</div>
-					<a href="Opt"> Analytics or Advertising </a>
-					<a href="Build"> Web Design Basic Training </a>
+					<a href="#Opt"> Analytics or Advertising </a>
+					<a href="#WebBuild"> Web Design Basic Training </a>
 					<a href="Svc_All.html"> View All Services </a>
 
 				</div>
@@ -150,7 +150,7 @@
 	</div>
 
 
-	<div class='section mobile-4' id="Build">
+	<div class='section mobile-4' id="WebBuild">
 	
 		Web Design Basic Training
 
