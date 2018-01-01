@@ -360,6 +360,23 @@ img {
 	max-width: 30%;
 	}
 
+.ServPic-L {
+	float: right;
+	padding: 10px;
+	margin-left: 10px;
+	position: relative;
+	max-width: 30%;
+	}
+
+.ServPic-R {
+	float: right;
+	padding: 10px;
+	margin-left: 10px;
+	position: relative;
+	max-width: 30%;
+	}
+
+
 .portrait {
 	float: left;
 	margin-right: 10px;
@@ -382,10 +399,17 @@ img {
 
 
 
-.DesktopPics {
+.DesktopPics-L {
 	float: left;
 	width: 50%;
 	padding-right: 15px;
+	margin-bottom: 1px;
+	}
+
+.DesktopPics-R {
+	float: right;
+	width: 50%;
+	padding-left: 15px;
 	}
 /*_________________________________HR______________________________________*/
 
@@ -490,18 +514,43 @@ hr.style-one:after {
     	padding: 8px 8px 8px 20px;
     	font-family: Georgia, "Times New Roman", Times, serif;
     	text-decoration: none;
-    	font-size: 1.5vw;
+    	font-size: 1.4vw;
    	color: black;
     	display: block;
 	text-shadow: 3px 3px 10px white;
+
 }
 .ServNav a:hover {
     color: RGB(69, 200, 207);
     font-style: italic;
 }
 
+.ServNav-dropdown {
+	float: right;
+	overflow: hidden;
+	padding: 8px 8px 8px 20px;
+    	font-family: Georgia, "Times New Roman", Times, serif;
+    	text-decoration: none;
+    	font-size: 1.4vw;
+   	color: black;
+	text-shadow: 3px 3px 10px white;
 
+}
 
+.ServNav-dropdown-content {
+	font-weight: bold;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 9999;
+    	width: auto;
+	display: none;
+	text-align: left;
+	}
+
+.ServNav-dropdown:hover .ServNav-dropdown-content {
+	display: block;
+	}
 
 /*----------------------------Screen Sizing --------------------------------*/
 
@@ -513,7 +562,7 @@ hr.style-one:after {
 	}
 
 
-.DesktopPics {
+.DesktopPics-L, .DesktopPics-R, .ServPic-L, .ServPic-R {
 	display: none;
 	}
 
@@ -521,7 +570,7 @@ p.important {
 	font-size: 3vw;
 	}
 
-.ServNav, .sidebar-area, .blank {
+.ServNav, .sidebar-area {
 	display: none;
 	}
 
@@ -843,7 +892,7 @@ p, ul, li {
 	}
 
 p.important {
-	font-size: 1vw;
+	font-size: 1.2vw;
 	text-align: justify;
 	padding: .5vw 1.5vw .5vw 1.5vw;
 	font-weight: bold;
