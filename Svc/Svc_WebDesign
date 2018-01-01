@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+
+
+<head> 
+	<title> Hickory Web Design - Services </title>
+	<link rel="stylesheet" href="../css/main.css">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Office Training, Del Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Web Design Web Design Services">
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+</head>
+<!--____________________________________________________________Navigation______________________________________________________________--!>
+
+<Body>
+
+
+<div class='navbar'>
+
+	<div class='section logo'>
+
+			<a href="../index.html"> <img src="../img/FullLogo.png" alt="Hickory Web Designs Logo" class="mainLogo" /> </a>
+
+	</div>
+
+
+
+  	<div class="dropdown">
+		<div class='section navMenu'>
+    		<button class="dropbtn"> &#9776; Menu
+		      <i class="fa fa-caret-down"></i>
+		</button>
+		</div>
+   			 <div class="dropdown-content">
+					<a href="../index.html"> Home</a>
+					<a href="../Packages.html"> Packages </a>
+					<a href="../Services.html"> Services </a>
+					<a href="../About.html"> About </a>
+					<a href="../Contact.html"> Contact Us </a>
+					<a href="../SvcInfo.html"> Q&A </a>
+    			</div>
+	
+  	</div> 
+
+</div>
+
+
+<!--________________________________________________________BODY________________________________________________________________--!>
+
+<div class='page'>
+<div class="content-area">	
+
+
+			<aside class="sidebar-area">
+
+				<div class="ServNav">
+					<a href="../Services.html"> Return to Services </a>
+					<a href="#top"> Back to the Top </a>
+					<a href="#temp"> Template Web Build</a>
+					<a href="#basic"> Basic Web Build </a>
+					<a href="#adv"> Advanced Web Build </a>
+					<a href="#ecomm"> E-Commerce Web Build </a>
+					<a href="Svc_All.html"> View All Services </a>
+
+				</div>
+
+			</aside>
+
+<div class="site-main">
+
+	<div class='section header'>
+
+		<h1 id="top"> Web Design Services </h1>
+	</div>
+
+	<div class='section mobile-2'>	
+
+		<img src="../img/ECommerce.png" alt="e-commerce" class="ServPic-L" >
+
+		Our web design services are our specialty. Creating unique and responsive web pages is 
+		not just a job for us, it is a lifestyle. When you use Hickory Web Designs, you can be 
+		certain we will care as much about the creation of your website as you will! <br> <br>
+		Note: external fees from web hosting, domain name acquisition, SEO accounts, etc. are not covered by Hickory Web Designs, unless otherwise specified, but may be added on. For more information see our FAQ section.  
+	</div>
+
+	<div class='section mobile-pic'>
+		<img src="../img/Web.png" alt="Web Design" class="MobilePics">
+	</div>
+
+	<div class='section blank'> </div>
+
+	<div class='section mobile-4' id="temp">
+	
+		Template Web Build
+
+	</div>
+
+	<div class='section servs'>
+		Our template web designs use web services, 
+		such as WordPress or SquareSpace, to create 
+		standardized web pages that are fairly simple to maintain.
+		We can integrate pre-existing web analytics accounts. 
+
+			<br/> <br/> 
+
+		<p class="important">
+		Pro: Easy to maintain, great for blogs	<br/>
+		Con: Unoriginal designs, expensive subscriptions 
+		</p>
+
+
+		<div class="blank"> </div>
+		<div class="price">
+			$149.99
+		</div>
+		<div class="blank"> </div>
+		<br> <br>
+
+	</div>
+
+	<div class='section mobile-4' id="basic">
+		Basic Web Build
+	</div>
+
+	
+	<div class='section servs'>
+
+		Have a small website built that is customized and designed 
+		specifically for you. Together, we will create an original 
+		layout for mobile and desktop using content, images and color 
+		schemes that are decided on by you. Will create up to <strong> 5 pages</strong>, 
+		but additional pages can be added for a small fee. These websites will use HTML5, CSS, 
+		and JavaScript, but will not include database services (SQL) nor customized 
+		form submission or server communication services (PHP). Forms can be added through 
+		other means.
+
+			<br/> <br/> 
+
+		<p class="important">
+
+		Pro: Original designs, potentially free web hosting	<br/>
+		Cons: Changes can be more complex
+
+		</p>
+
+
+		<div class="blank"> </div>
+		<div class="price">
+			$199.99
+		</div>
+		<div class="blank"> </div>
+		<br> <br>
+
+	</div>
+
+	<div class='section mobile-4' id="adv">
+	
+		Advanced Web Build
+
+	</div>
+
+	<div class='section servs'>	
+
+		Have a large website built that is customized and designed specifically for you. 
+		Together, we will create an original layout for mobile and desktop using content, 
+		images and color schemes that are decided on by you. Will create up to <strong> 10 pages</strong>, 
+		but additional pages can be added for a small fee. These websites will use HTML5, CSS, 
+		and JavaScript, but will not include database services (SQL) nor customized form submission 
+		or server communication services (PHP). Forms can be added through other means.
+
+			<br/> <br/> 
+
+		<p class="important">
+
+		Pro: Original designs, potentially free web hosting <br/>	
+		Cons: Changes can be more complex
+
+		</p>
+
+
+		<div class="blank"> </div>
+		<div class="price">
+			$299.99
+		</div>
+		<div class="blank"> </div>
+		<br> <br>
+
+	</div>
+
+	<div class='section mobile-pic'>
+		<img src="../img/ECommerce.png" alt="e-commerce" class="MobilePics">
+	</div>
+
+
+
+	<div class='section mobile-4' id="ecomm">
+
+		E-Commerce Web Build
+
+	</div>
+
+	<div class='section servs'>	
+
+
+		Have a large website built that is perfect for running an online business. 
+		This package includes everything from the Advanced Web Build Package and adds 
+		in database services and form submission services to create a straight forward 
+		online web purchase experience for your customers.
+			<br/> <br/> 
+
+		<p class="important">
+
+		Pro: Great for online businesses <br/>
+		Cons: More expensive hosting
+	
+		</p>
+
+		<div class="blank"> </div>
+		<div class="price">
+			$499.99
+		</div>
+		<div class="blank"> </div>
+		<br> <br>
+	
+	</div>
+</div>
+</div>
+
+	<footer>
+		<strong> Contact Us </strong>
+			<br/> <br/>
+		<strong> Call Us: </strong> <a href="tel:+15623704395"> (562) 370-4395 </a>
+			<br/> <br/>
+		<strong> Email Us: </strong> <a href="mailto:HickoryWebDesigns@Gmail.com" data-rel="external"> HickoryWebDesigns@Gmail.com </a>
+			<br/> <br/>
+		<strong> Request More Info </strong> <a href="ContactUs.html"> Here  </a>
+		
+	</footer>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
