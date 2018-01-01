@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+
+<head> 
+	<title> Hickory Web Design - Services </title>
+	<link rel="stylesheet" href="../css/main.css">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Office Training, Del Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Web Designs MS Office Services">
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+</head>
+<!--____________________________________________________________Navigation______________________________________________________________--!>
+
+<Body>
+
+
+<div class='navbar'>
+
+	<div class='section logo'>
+
+			<a href="../index.html"> <img src="../img/FullLogo.png" alt="Hickory Web Designs Logo" class="mainLogo" /> </a>
+
+	</div>
+
+
+
+  	<div class="dropdown">
+		<div class='section navMenu'>
+    		<button class="dropbtn"> &#9776; Menu
+		      <i class="fa fa-caret-down"></i>
+		</button>
+		</div>
+   			 <div class="dropdown-content">
+					<a href="../index.html"> Home</a>
+					<a href="../Packages.html"> Packages </a>
+					<a href="../Services.html"> Services </a>
+					<a href="../About.html"> About </a>
+					<a href="../Contact.html"> Contact Us </a>
+					<a href="../SvcInfo.html"> Q&A </a>
+    			</div>
+	
+  	</div> 
+
+</div>
+
+
+<!--________________________________________________________BODY________________________________________________________________--!>
+
+<div class='page'>
+<div class="content-area">	
+
+
+			<aside class="sidebar-area">
+
+				<div class="ServNav">
+					<a href="../Services.html"> Return to Services </a>
+					<a href="#top"> Back to the Top </a>
+					<a href="#MSbasic"> MS Office Basic Assistance</a>
+					<a href="#MSadv"> Advanced Spreadsheet Creation </a>
+					<a href="Svc_All.html"> View All Services </a>
+
+				</div>
+
+			</aside>
+
+<div class="site-main">
+
+	<div class='section header'>
+
+		<h1 id="top"> Microsoft Office Services </h1>
+	</div>
+
+	<div class='section mobile-2'>	
+	
+		<img src="../img/Office.png" alt="MS Office" class="ServPic-R">
+		Microsoft Office has become a necessity for many organizations. 
+		Whether you are creating beautiful documents, extensive spreadsheets, 
+		or using databases to catalog information, MS Office has an application to use. 
+
+		<br> <br>
+
+		Other MS Office services may be available upon request. Please inquire about any
+		and all services you may need. Hickory Web Designs is proficient in Excel, Word,
+		PowerPoint, Access and Outlook.
+
+	</div>
+
+	<div class='section mobile-pic'>
+		<img src="../img/Office.png" alt="MS Office" class="MobilePics">
+	</div>
+
+	
+	<div class='section mobile-4' id="MSbasic">
+
+		MS Office Basic Assistance
+
+	</div>
+
+	<div class='section servs'>
+	
+		Have 1 reusable template created in Word (and PDF), PowerPoint, Excel, or Access. 
+		This template may include multiple sheets or multiple pages (up to 5). Does not 
+		include additional functionality not originally programmed into the MS Office Suite. 
+
+
+		<div class="blank"> </div>
+		<div class="price">
+			$59.99
+		</div>
+		<div class="blank"> </div>
+		<br> <br>
+	</div>
+
+	<div class='section mobile-4' id="MSadv">
+		Advanced Spreadsheet Creation
+
+	</div>
+
+	<div class='section servs'>
+
+		Microsoft Office is an amazing program with thousands of ready to use features. 
+		However, Microsoft made their product even better and integrated a programming 
+		language into their suite called Visual Basics for Application (VBA). Using VBA, 
+		features that are not traditionally supported by Excel can be programmed in to make
+		spreadsheet use even easier. 
+		This service integrates VBA into MS Excel pre-existing or new spreadsheets, up to 5 sheets.
+	
+
+		<div class="blank"> </div>
+		<div class="price">
+			$99.99
+		</div>
+		<div class="blank"> </div>
+		<br> <br>
+
+	</div> 
+
+</div>
+</div>
+
+	<footer>
+		<strong> Contact Us </strong>
+			<br/> <br/>
+		<strong> Call Us: </strong> <a href="tel:+15623704395"> (562) 370-4395 </a>
+			<br/> <br/>
+		<strong> Email Us: </strong> <a href="mailto:HickoryWebDesigns@Gmail.com" data-rel="external"> HickoryWebDesigns@Gmail.com </a>
+			<br/> <br/>
+		<strong> Request More Info </strong> <a href="ContactUs.html"> Here  </a>
+		
+	</footer>
+</div>
+
+
+
+
+</body>
+</html>
