@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+
+
+<head> 
+	<title> Hickory Web Design - Services </title>
+	<link rel="stylesheet" href="../css/main.css">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Office Training, Del Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Web Design Web Optimization Services">
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+</head>
+<!--____________________________________________________________Navigation______________________________________________________________--!>
+
+<Body>
+
+
+<div class='navbar'>
+
+	<div class='section logo'>
+
+			<a href="../index.html"> <img src="../img/FullLogo.png" alt="Hickory Web Designs Logo" class="mainLogo" /> </a>
+
+	</div>
+
+
+
+  	<div class="dropdown">
+		<div class='section navMenu'>
+    		<button class="dropbtn"> &#9776; Menu
+		      <i class="fa fa-caret-down"></i>
+		</button>
+		</div>
+   			 <div class="dropdown-content">
+					<a href="../index.html"> Home</a>
+					<a href="../Packages.html"> Packages </a>
+					<a href="../Services.html"> Services </a>
+					<a href="../About.html"> About </a>
+					<a href="../Contact.html"> Contact Us </a>
+					<a href="../SvcInfo.html"> Q&A </a>
+    			</div>
+		</div>
+</div>
+
+
+<!--________________________________________________________BODY________________________________________________________________--!>
+
+<div class='page'>
+<div class="content-area">	
+
+
+			<aside class="sidebar-area">
+
+				<div class="ServNav">
+					<a href="../Services.html"> Return to Services </a>
+					<a href="#top"> Back to the Top </a>
+					<a href="#Ana"> Web Analytics </a>
+					<a href="#Exp"> Web Exposure </a>
+					<a href="Svc_All.html"> View All Services </a>
+
+
+				</div>
+
+			</aside>
+
+<div class="site-main">
+
+	<div class='section header'>
+
+		<h1 id="top"> Web Optimization Services </h1>
+	</div>
+
+	<div class='section mobile-2'>
+			
+			
+			<img src="../img/SEO.jpg" alt="SEO" class="ServPic-R">
+			Our web optimization services complement new or pre-existing websites, allowing you to get the most out of your online experience. 
+
+			<br> <br>
+
+			Search Engine Optimization, or SEO, helps increase the exposure of your website. When potential clients search for specific words, 
+			your website is more likely to be on the first page of results. A key to using this optimization process is to know your clientele, which is where
+			Web Analytics comes into play. Together, we can make your website thrive using these techniques!
+
+			<br> <br>
+
+			<p class="small"> Note: external fees from web hosting, domain name acquisition, SEO accounts, etc. are not covered by Hickory Web Designs, unless 
+			otherwise specified, but may be added on. For more information see our FAQ section. </p>
+		
+	</div>
+
+	<div class='section mobile-pic'>
+		<img src="../img/SEO.jpg" alt="SEO" class="MobilePics">
+	</div>
+
+
+	<div class='section mobile-4' id="Ana">
+
+			 Web Analytics
+
+	</div>
+
+	<div class='section servs'>
+
+		Web analytics is the ability to track what is happening on your site. From who is visiting to what device they are on, 
+		you can make changes to your site to fit your audience needs. 
+		Create an account and add web analytics to a pre-existing site and have a 1-hour training seminar for up to 5 people. 
+		Choose any web analytics program you like, such as Google Analytics and Piwik. 
+
+
+	</div>
+
+	<div class='section mobile-4' id="Exp">
+
+		Web Exposure
+
+	</div>
+
+	<div class='section servs'>
+
+		Number of visitors is often a Key Performance Indicator (KPI) of a website; 
+		the more visitors you have, the more opportunities you have to convert them to customers!
+		Create an account and add extensions like Google AdWords or Facebook Pixel to your website. 
+		Both of these programs, as well as a variety of other programs, help new clients find your website easier and more often.
+		 Pair with a web analytics service for best results. 
+		Note: service covers TWO account set ups and installations. 
+
+	</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+	<footer>
+		<strong> Contact Us </strong>
+			<br/> <br/>
+		<strong> Call Us: </strong> <a href="tel:+15623704395"> (562) 370-4395 </a>
+			<br/> <br/>
+		<strong> Email Us: </strong> <a href="mailto:HickoryWebDesigns@Gmail.com" data-rel="external"> HickoryWebDesigns@Gmail.com </a>
+			<br/> <br/>
+		<strong> Request More Info </strong> <a href="ContactUs.html"> Here  </a>
+		
+	</footer>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
