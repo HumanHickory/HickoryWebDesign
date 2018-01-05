@@ -750,8 +750,8 @@ p.small {
 
 .package {
 	border: 1vw solid RGB(69, 200, 207);
-	margin-left: 3vw;
-	width: 60%
+	margin: auto;
+	width: 65%;
 	}
 
 .servs {
