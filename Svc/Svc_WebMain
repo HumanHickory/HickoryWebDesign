@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;"><head> 
+	<title> Hickory Web Design - Services </title>
+	<link rel="stylesheet" href="../css/main.css">
+
+		<meta name="author" content="Jordon Meredith">
+		<meta name="keywords" content="Jordon Meredith, Jordon, Meredith, Hickory Web Designs, Web Designs, Office Training, Del Rio, Texas, Southern Texas, Laughlin AFB">
+		<meta name="description" content="Hickory Web Design Web Optimization Services">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+</head>
+<!--____________________________________________________________Navigation______________________________________________________________-->
+
+<body>
+
+
+<div class="navbar">
+
+	<div class="section logo">
+
+			<a href="../index.html"> <img src="../img/FullLogo.png" alt="Hickory Web Designs Logo" class="mainLogo"> </a>
+
+	</div>
+
+
+
+  	<div class="dropdown">
+		<div class="section navMenu">
+    		<button class="dropbtn"> ? Menu
+		      <i class="fa fa-caret-down"></i>
+		</button>
+		</div>
+   			 <div class="dropdown-content">
+					<a href="../index.html"> Home</a>
+					<a href="../Packages.html"> Packages </a>
+					<a href="../Services.html"> Services </a>
+					<a href="../About.html"> About </a>
+					<a href="../Contact.html"> Contact Us </a>
+					<a href="../SvcInfo.html"> Q&amp;A </a>
+    			</div>
+		</div>
+</div>
+
+
+<!--________________________________________________________BODY________________________________________________________________-->
+
+<div class="page">
+<div class="content-area">	
+
+
+			<aside class="sidebar-area">
+
+				<div class="ServNav">
+					<a href="../Services.html"> Return to Services </a>
+					<a href="#top"> Back to the Top </a>
+					<a href="#Sing"> Single Service </a>
+					<a href="#Ret"> Retainer </a>
+					<a href="Svc_All.html"> View All Services </a>
+
+
+				</div>
+
+			</aside>
+
+<div class="site-main">
+
+	<div class="section header">
+
+		<h1 id="top"> Web Maintenance Services </h1>
+	</div>
+
+	<div class="section mobile-2">
+			
+			
+			<img src="../img/WebRepair.jpeg" alt="SEO" class="ServPic-R">
+			Maintaining a web site can be a full job in itself. Hickory Web Designs is here to help! 
+			Whether you are looking to do some one-time updates or keep up with monthly changes, we have a service that is right for you!
+			
+			<br> <br>
+
+			Entire website re-formats or template changes may be available upon request, but require
+			a free consultation to establish scope of work and pricing. Please contact us at any time
+			for more details.
+		
+
+			
+	</div>
+
+	<div class="section mobile-pic">
+		<img src="../img/WebRepair.jpeg" alt="SEO" class="MobilePics">
+	</div>
+
+
+	<div class="section mobile-4" id="Sing">
+
+			 One Time Updates
+
+	</div>
+
+	<div class="section servs">
+		This service includes a one-time update of pre-written code. 
+		May include color scheme changes, basic layout changes, content updates, etc. 
+
+	</div>
+
+	<div class="section mobile-4" id="Ret">
+
+		Maintenance Retainer
+
+	</div>
+
+	<div class="section servs">
+
+		Hire Hickory Web Designs to update your website anytime during the month! 
+		Any time you need an update, just send us an email, or give us a call. 
+		Includes 1 new page a month. Subscription can be cancelled at any time. 
+
+	</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+	<footer>
+		<strong> Contact Us </strong>
+			<br> <br>
+		<strong> Call Us: </strong> <a href="tel:+15623704395"> (562) 370-4395 </a>
+			<br> <br>
+		<strong> Email Us: </strong> <a href="mailto:HickoryWebDesigns@Gmail.com" data-rel="external"> HickoryWebDesigns@Gmail.com </a>
+			<br> <br>
+		<strong> Request More Info </strong> <a href="ContactUs.html"> Here  </a>
+		
+	</footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
