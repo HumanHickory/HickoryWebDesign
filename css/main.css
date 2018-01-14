@@ -164,6 +164,14 @@ footer {
 	width: 100%;
 	height: 2px;
 	}
+.sep {
+	background-color: RGB(69, 200, 207);
+	height: 4vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	}
 
 .price {
 	display: block;
@@ -618,52 +626,30 @@ p.important {
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-.header {
-	height: 60px;
-	width: 100%;
-	margin: auto;
-	margin-bottom: .5vw;
-	margin-top: .5vw;
-  }
 
-.DesktopPics {
+.feature-3 {
 	display: none;
 	}
 
-.feature-1, .feature-2, .feature-3 {
-	width:55%;
-	height: 20%;
-	margin: auto;
-	margin-bottom: .5vw;
-  	}
 
-
-.Scontent {
-	width: 95%;
-	margin: auto;
+.DesktopPics-L, .DesktopPics-R, .ServPic-L, .ServPic-R {
+	display: none;
 	}
-
-.package {
-	border: .7vw solid RGB(69, 200, 207);	
-	}
-
-.servs {
-	margin: auto;
-	margin-top: 1vw;
-	border: .7vw solid RGB(69, 200, 207);
-	width: 90%;
-	}
-
 
 p.important {
-	font-size: 2.1vw;
+	font-size: 3vw;
 	}
 
+.ServNav, .sidebar-area {
+	display: none;
+	}
 
+.content-area {
+	width: 100%;
+	}
 
-
-p.small {
-	font-size: 1.7vw;
+.site-main {
+	width: 100%;
 	}
 
 .navbar {
@@ -673,18 +659,18 @@ p.small {
 	border: .3vw solid dimGray;
 	}	
 
-.dropdown {
-	overflow: hidden;
-	background-color: white;
-	height: 15vw;
-	}
-
 
 .dropdown .dropbtn {
  	font-size: 5vw; 
 	margin-top: 3vw;
 	}
 
+.dropdown {
+	height: 14vw;
+	margin-right: 3vw;
+	width: 25vw;
+
+	}
 
 .logo {
 	width: 35vw;
@@ -696,10 +682,6 @@ p.small {
 
 .dropdown-content {
 	font-size: 2.8vw;
-	}
-
-.ServNav {
-	display: none;
 	}
 
 }
@@ -916,6 +898,9 @@ p.pricing {
 .price {
 	font-size: 3vw;
 	margin-top: 0;
+	}
+.sep {
+	display: none;
 	}
 	
 }
